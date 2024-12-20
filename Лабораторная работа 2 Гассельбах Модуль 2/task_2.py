@@ -72,7 +72,7 @@ class Library:
         Возвращает индекс книги по её идентификатору
 
         :param book_id: Идентификатор книги
-        :return:
+        :return: Индекс книги в списке
         """
         for index, book in enumerate(self.books):
             if book.id == book_id:
